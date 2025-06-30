@@ -1,0 +1,23 @@
+# Requirements pour le convertisseur SafeTensors vers TFLite
+# Testé avec Python 3.8+
+
+# Core ML libraries
+torch>=1.12.0
+transformers>=4.20.0
+tensorflow>=2.12.0,<2.16.0
+
+# Tokenization
+tokenizers>=0.13.0
+
+# Utilities
+numpy>=1.21.0
+safetensors>=0.3.0
+
+# Optional: pour des fonctionnalités avancées
+# scikit-learn>=1.1.0  # Pour les métriques d'évaluation
+# matplotlib>=3.5.0    # Pour la visualisation
+# tqdm>=4.64.0         # Pour les barres de progression
+
+# Development tools (optionnel)
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
